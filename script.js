@@ -2,6 +2,13 @@ const fileInput = document.getElementById('file');
 const fileListDiv = document.getElementById('fileList');
 const uploadForm = document.getElementById('uploadForm');
 const contenido = document.getElementById('contenido');
+const fontSizeInput = document.getElementById('fontSizeInput');
+
+fontSizeInput.addEventListener('input', function() {
+    const fontSize = fontSizeInput.value + 'px';
+    contenido.style.fontSize = fontSize;
+});
+
 
 fileInput.addEventListener('change', () => {
     const files = fileInput.files;
