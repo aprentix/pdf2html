@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pdf2html": "^3.1.0",
+    "pdfjs-dist": "^4.5.136"
+  }
+}

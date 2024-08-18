@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+input#file-upload-button{
+    background-color: aqua;
+}
+
+.info{
+    margin: 25px;
+    background-color: rgba(205, 245, 245, 0.855);
+    padding: 50px;
+    border-radius: 20px;
+    border-style: dashed;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#contenido{
+    padding: 50px;
+    line-height: 1.8;
+}
+
+::selection {
+    background-color: rgb(127, 218, 230); /* Color de fondo cuando el texto es seleccionado */
+    color: black; /* Color del texto seleccionado */
+    text-decoration: underline;
+}
