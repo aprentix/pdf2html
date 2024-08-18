@@ -1,12 +1,15 @@
 *{
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
 }
 
 input#file-upload-button{
     background-color: aqua;
+}
+
+li{
+    font-size: 15px;
 }
 
 .info{
@@ -23,12 +26,12 @@ input#file-upload-button{
     display: none;
 }
 button{
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 10px;
     border-radius: 20px;
 }
 #contenido{
-    padding: 50px;
+    padding: 3px;
     line-height: 1.8;
 }
 
